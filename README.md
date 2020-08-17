@@ -2,10 +2,9 @@
 
 This demo serves as the first step towards constructing a vision-based smart reminder for vulnerable populations like older adults and people with visino impairments. An envisioned use case is that when the user forgets to turn off the stove, the smart reminder will be able to alert the user immediately. We can definitley extend the application to detecting the on/off state of a TV or the on/off state of a light switch. 
 
-
 **Step 1: Place an ARUCO marker on the stove, ideally next to the stove knob**
 
-<img src="images/stove_pc.JPG" width="300" height="500">
+<img src="images/stove_pc.JPG" width="300" height="500" style="text-align:center;">
 
 **Step 2: Shoot videos of different stove top status. One for stove-off and the other for stove-on**
 
