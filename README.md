@@ -13,7 +13,7 @@ This demo serves as the first step towards constructing a vision-based smart rem
   <img src="images/training.JPG" width="206" height="125">
 </p>
 
-**Step 3:** Select regions of interest you would like the system to track. You can select whatever you want, but it's best to select the region of interest that changes the most between two different states (on and off), for example, the turning of a stove knob. The more precise the selection, the accurate the classification can be.
+**Step 3:** Select a region of interest you would like the system to track. You can select whatever you want, but it's best to select the region of interest that changes the most between two different states (on and off), for example, the turning of a stove knob. The more precise the selection, the accurate the classification can be.
 
 <p align="center">
   <img src="images/ROI_pc.JPG" width="300" height="500">
@@ -24,7 +24,7 @@ This demo serves as the first step towards constructing a vision-based smart rem
 
 **Step 4:** Let the system process the video data.The algorithm will resize each video frame into 32 pixels by 32 pixels, so we have 1032 feature dimensions to work with. I chose 32x32 for faster processing but this dimension can definitely be changed.
 
-**Step 5:** Test the system on a newly shot video. The recognition performance can be quite decent as long the the video frames are clear and there is not much occulusions.
+**Step 5:** Test the system on a newly shot video. The recognition performance can be quite decent as long as the the video frames are clear and there is not much occulusions.
 
 <a href="https://www.youtube.com/watch?v=_EjS_oaIEd0">Test video 1</a>
 
