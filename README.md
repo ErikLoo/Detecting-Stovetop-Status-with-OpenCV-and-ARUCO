@@ -8,7 +8,10 @@ This demo serves as the first step towards constructing a vision-based smart rem
   <img src="images/stove_pc.JPG" width="300" height="500">
 </p>
 
-**Step 2: Shoot videos of different stove top status. One for stove-off and the other for stove-on**
+**Step 2: Shoot videos of different stove top status. One for stove-off and the other for stove-on. Save the videos under the folder stove pics**
+<p align="center">
+  <img src="images/training.JPG" width="206" height="125">
+</p>
 
 **Step 3: Select regions of interest you would like the system to track**
 
