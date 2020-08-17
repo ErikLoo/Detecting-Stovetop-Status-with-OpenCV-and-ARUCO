@@ -1,6 +1,6 @@
 # Detecting Stovetop Status with OpenCV and ARUCO Marker
 
-This demo serves as the first step towards constructing a vision-based smart reminder for vulnerable populations like older adults and people with visino impairments. An envisioned use case is that when the user forgets to turn off the stove, the smart reminder will be able to alert the user immediately. We can definitley extend the application to detecting the on/off state of a TV or the on/off state of a light switch. 
+This demo serves as the first step towards constructing a vision-based smart reminder for vulnerable populations like older adults and people with visino impairments. An envisioned use case is that when the user forgets to turn off the stove, the smart reminder will be able to alert the user immediately. We can definitley extend the application to detecting the on/off state of a TV or the on/off state of a light switch in the future. 
 
 **Step 1: Place an ARUCO marker on the stove, ideally next to the stove knob.**
 
@@ -13,7 +13,7 @@ This demo serves as the first step towards constructing a vision-based smart rem
   <img src="images/training.JPG" width="206" height="125">
 </p>
 
-**Step 3: Select regions of interest you would like the system to track. You can select the whatever you want, but it's best to select the region of interest that changes the most between two different states (on and off), for example, the turning of a stove knob. The more precise the selection, the accurate the classification can be.**
+**Step 3: Select regions of interest you would like the system to track. You can select whatever you want, but it's best to select the region of interest that changes the most between two different states (on and off), for example, the turning of a stove knob. The more precise the selection, the accurate the classification can be.**
 
 <p align="center">
   <img src="images/ROI_pc.JPG" width="300" height="500">
@@ -22,7 +22,12 @@ This demo serves as the first step towards constructing a vision-based smart rem
 </p>
 
 
-**Step 4: Let the system process the video data.The algorithm will resize each video frame into 32 pixels by 32 pixels, so we have a 1032 feature dimensions to work with. I chose 32x32 for faster processing but this dimension can definitely be changed.**
+**Step 4: Let the system process the video data.The algorithm will resize each video frame into 32 pixels by 32 pixels, so we have 1032 feature dimensions to work with. I chose 32x32 for faster processing but this dimension can definitely be changed.**
 
-**Step 5: Test the system on a newly shot video**
-Two test cases. The system works well as long as there the video quality is clear, little occulusion. 
+**Step 5: Test the system on a newly shot video. The recognition performance can be quite decent as long the the video frames are clear and there is not much occulusions.**
+
+<p align="center">
+  <video width="300" height="500" controls>
+    <source src="https://www.youtube.com/watch?v=_EjS_oaIEd0">
+  </video>
+</p>
