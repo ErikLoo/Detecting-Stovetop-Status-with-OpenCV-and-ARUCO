@@ -13,7 +13,13 @@ This demo serves as the first step towards constructing a vision-based smart rem
   <img src="images/training.JPG" width="206" height="125">
 </p>
 
-**Step 3: Select regions of interest you would like the system to track**
+**Step 3: Select regions of interest you would like the system to track. You can select the whatever you want.**
+
+<p align="center">
+  <img src="images/ROI_pc.JPG" width="206" height="125">
+  <img src="images/ROI_PC2.JPG" width="206" height="125">
+</p>
+
 
 **Step 4: Let the system process the video data**
 Feature extraction all that. 32x32 feature space. I find it commonly used. 
