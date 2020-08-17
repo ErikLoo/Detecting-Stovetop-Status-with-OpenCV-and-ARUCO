@@ -24,10 +24,8 @@ This demo serves as the first step towards constructing a vision-based smart rem
 
 **Step 4: Let the system process the video data.The algorithm will resize each video frame into 32 pixels by 32 pixels, so we have 1032 feature dimensions to work with. I chose 32x32 for faster processing but this dimension can definitely be changed.**
 
-**Step 5: Test the system on a newly shot video. The recognition performance can be quite decent as long the the video frames are clear and there is not much occulusions.**
+**Step 5:** Test the system on a newly shot video. The recognition performance can be quite decent as long the the video frames are clear and there is not much occulusions.
 
-<p align="center">
-  <video width="300" height="500" controls>
-    <source src="https://www.youtube.com/watch?v=_EjS_oaIEd0">
-  </video>
-</p>
+<a href="https://www.youtube.com/watch?v=_EjS_oaIEd0">Test video 1</a>
+
+<a href="https://www.youtube.com/watch?v=JHIc_5RYfXQ">Test video 2</a>
