@@ -22,8 +22,7 @@ This demo serves as the first step towards constructing a vision-based smart rem
 </p>
 
 
-**Step 4: Let the system process the video data**
-Feature extraction all that. 32x32 feature space. I find it commonly used. SVM
+**Step 4: Let the system process the video data.The algorithm will resize each video frame into 32 pixels by 32 pixels, so we have a 1032 feature dimensions to work with. I chose 32x32 for faster processing but this dimension can definitely be changed.**
 
 **Step 5: Test the system on a newly shot video**
 Two test cases. The system works well as long as there the video quality is clear, little occulusion. 
