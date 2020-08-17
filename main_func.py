@@ -123,4 +123,4 @@ if __name__ == '__main__':
 
     extract_training_data()
 
-    track_object_status('stove pics/test vid 1.mp4')
+    track_object_status('stove pics/test vid 2.mp4')
