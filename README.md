@@ -4,7 +4,9 @@ This demo serves as the first step towards constructing a vision-based smart rem
 
 **Step 1: Place an ARUCO marker on the stove, ideally next to the stove knob**
 
-<img src="images/stove_pc.JPG" width="300" height="500" style="text-align:center;">
+<p align="center">
+  <img src="images/stove_pc.JPG" width="300" height="500">
+</p>
 
 **Step 2: Shoot videos of different stove top status. One for stove-off and the other for stove-on**
 
